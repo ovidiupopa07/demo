@@ -1,4 +1,4 @@
-package com.example.demo.properties;
+package com.example.demo.yaml;
 
 import org.springframework.boot.env.OriginTrackedMapPropertySource;
 import org.springframework.boot.env.PropertySourceLoader;

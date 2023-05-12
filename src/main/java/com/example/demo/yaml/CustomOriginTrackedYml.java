@@ -1,4 +1,4 @@
-package com.example.demo.properties;
+package com.example.demo.yaml;
 
 import org.springframework.beans.factory.config.YamlProcessor;
 import org.springframework.boot.origin.Origin;
