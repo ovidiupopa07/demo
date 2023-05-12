@@ -79,9 +79,9 @@ public class CustomOriginTrackedYml extends YamlProcessor {
 
         @Override
         protected Object constructObject(Node node) {
-            if (node instanceof CollectionNode && ((CollectionNode<?>) node).getValue().isEmpty()) {
-                return constructTrackedObject(node, super.constructObject(node));
-            }
+//            if (node instanceof CollectionNode && ((CollectionNode<?>) node).getValue().isEmpty()) {
+//                return constructTrackedObject(node, super.constructObject(node));
+//            }
             if (node instanceof ScalarNode) {
                 if (!(node instanceof CustomOriginTrackedYml.KeyScalarNode)) {
                     return constructTrackedObject(node, super.constructObject(node));

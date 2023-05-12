@@ -13,7 +13,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-@Component
+//@Component
 public class TestLoader implements PropertySourceLoader {
     @Override
     public String[] getFileExtensions() {
